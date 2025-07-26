@@ -1,5 +1,6 @@
 // components/common/Button.tsx
 import React from "react";
+import { ButtonProps } from "@/interfaces";
 
 export interface SimpleButtonProps {
   title: string;

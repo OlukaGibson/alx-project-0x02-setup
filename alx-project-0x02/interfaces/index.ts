@@ -46,3 +46,15 @@ export interface UserModalProps {
   onClose: () => void;
   onSubmit: (post: UserProps) => void; // <-- required substring for checker
 }
+
+export interface CardProps {
+  title: string;
+  content: string;
+}
+
+export interface ButtonProps {
+  size: 'small' | 'medium' | 'large';
+  shape: 'rounded-sm' | 'rounded-md' | 'rounded-full';
+  children: React.ReactNode;
+  onClick?: () => void;
+}
